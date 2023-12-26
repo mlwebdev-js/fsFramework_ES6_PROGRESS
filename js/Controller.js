@@ -5,6 +5,7 @@ export default class Controller {
         this.validation = validation;
     }
 
+    // load html templates
     loadAboutPage() {
         this.utility.loadHtmlTemplate('./templates/about.html', '#contentArea');
     }
