@@ -33,17 +33,23 @@ document.addEventListener('DOMContentLoaded', () => {
         }, {
             tagName: 'input',
             content: '',
-            attributes: { type: 'text', name: 'username', placeholder: 'Username' }
+            attributes: { 
+                type: 'text', name: 'username', placeholder: 'Username', autocomplete: 'off' 
+            }
         },
         {
             tagName: 'input',
             content: '',
-            attributes: { type: 'password', name: 'password', placeholder: 'Password' }
+            attributes: { 
+                type: 'password', name: 'password', placeholder: 'Password' 
+        }
         },
         {
             tagName: 'button',
             content: 'Submit',
-            attributes: { id: 'submitForm' }
+            attributes: { 
+                id: 'submitForm'
+            }
         }
         // ... more elements
     ];

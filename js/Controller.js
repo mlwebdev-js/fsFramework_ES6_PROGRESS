@@ -1,8 +1,8 @@
 // js/Controller.js
 export default class Controller {
-    constructor(utility, validation) {
+    constructor(utility) {
         this.utility = utility;
-        this.validation = validation;
+        
     }
 
     // load html templates

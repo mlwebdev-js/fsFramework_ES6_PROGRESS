@@ -34,5 +34,9 @@ export default class Utility {
             console.error("Error loading template:", e);
         }
     }
+    // ... existing methods ...
+  
 }
+
+
 
